@@ -63,6 +63,16 @@ button.btn{
     font-family: var(--Livvic);
     cursor: pointer;
 }
+
+span{
+    font-family: var(--Abel);
+}
+
+container{
+    margin: 0 5vw;   
+}
+
+/* global ends */
 /* navigation */
 
 .nav{
@@ -183,6 +193,7 @@ main .blog{
     background-position: right;
     height: 100vh;
     width: 100%;
+    background-size:65% ;
 }
 
 main .blog .blog-post{
@@ -211,6 +222,30 @@ main .blog-content .btn-blog{
 main .blog-content span{
     display: block;
 }
+
+section .container .owl-nav{
+    position: absolute;
+    top: 0%;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.owl-nav .owl-prev .owl-nav-prev,
+.owl-nav .owl-next .owl-nav-next{
+    color: var(--text-grey);
+    background: transparent;
+    font-size: 2rem;
+}
+
+.owl-theme .owl-nav [class*='owl-']:hover{
+    background: transparent;
+    color: var(--midnight);
+}
+
+.owl-theme .owl-nav [class*='owl-']{
+    outline: none;
+}
+
 /* blog section caurosel ends */
 
 
