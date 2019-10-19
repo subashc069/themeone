@@ -13,6 +13,7 @@ const respons={
    }    
 }
 
+
 $(document).ready(function(){
     $nav = $('.nav');
     $toggleCollapse =$('.toggle-collapse');
@@ -39,5 +40,5 @@ $(document).ready(function(){
             scrollTop:0    
         },1000);
     })
-
+    AOS.init();
 });
